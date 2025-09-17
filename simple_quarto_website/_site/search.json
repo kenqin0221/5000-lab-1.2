@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "about.html#title-componet-5",
+    "href": "about.html#title-componet-5",
+    "title": "Quarto Reveal.js Slide Deck",
+    "section": "title: “Componet 5”",
+    "text": "title: “Componet 5”"
+  },
+  {
+    "objectID": "about.html#research-background-h2",
+    "href": "about.html#research-background-h2",
+    "title": "Quarto Reveal.js Slide Deck",
+    "section": "Research Background (H2)",
+    "text": "Research Background (H2)\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.\nMethodology (H3)\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Simple Quarto Website",
+    "section": "",
+    "text": "Welcome to my professional Quarto website.\nThis page demonstrates formatting, math, references, and multimedia content for lab documentation."
+  },
+  {
+    "objectID": "index.html#two-column-layout-h3",
+    "href": "index.html#two-column-layout-h3",
+    "title": "Simple Quarto Website",
+    "section": "Two-Column Layout (H3)",
+    "text": "Two-Column Layout (H3)\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet quam sit amet sapien pretium, eu ultricies urna feugiat.\n\nSuspendisse nec urna facilisis, tristique urna non, lacinia enim. Donec feugiat justo sit amet tortor porttitor convallis."
+  },
+  {
+    "objectID": "index.html#bulleted-list-h3",
+    "href": "index.html#bulleted-list-h3",
+    "title": "Simple Quarto Website",
+    "section": "Bulleted List (H3)",
+    "text": "Bulleted List (H3)\n\nComprehensive analysis of project requirements\n\nDevelopment of reproducible workflows\n\nClear documentation and professional reporting\n\nCite a source from your bibliography: According to Miller and Smith (Miller and Smith 2020), deep learning accelerates discovery."
+  },
+  {
+    "objectID": "index.html#markdown-table",
+    "href": "index.html#markdown-table",
+    "title": "Simple Quarto Website",
+    "section": "Markdown Table",
+    "text": "Markdown Table\n\n\n\nFeature\nDescription\n\n\n\n\nTable of Contents\nAdded with toc: true\n\n\nMath\nInline & block equations\n\n\nMultimedia\nImages, video, and diagrams"
+  },
+  {
+    "objectID": "index.html#images-h3",
+    "href": "index.html#images-h3",
+    "title": "Simple Quarto Website",
+    "section": "Images (H3)",
+    "text": "Images (H3)"
+  },
+  {
+    "objectID": "index.html#embedded-video-h3",
+    "href": "index.html#embedded-video-h3",
+    "title": "Simple Quarto Website",
+    "section": "Embedded Video (H3)",
+    "text": "Embedded Video (H3)"
+  },
+  {
+    "objectID": "index.html#mermaid-flowchart-workflow-diagram-h3",
+    "href": "index.html#mermaid-flowchart-workflow-diagram-h3",
+    "title": "Simple Quarto Website",
+    "section": "Mermaid Flowchart Workflow Diagram (H3)",
+    "text": "Mermaid Flowchart Workflow Diagram (H3)\n\n\n\n\n\nflowchart TD\n    A[Start] --&gt; B[Data Collection]\n    B --&gt; C[Data Cleaning]\n    C --&gt; D{Analysis?}\n    D --&gt;|Yes| E[Modeling]\n    D --&gt;|No| F[Reiterate Steps]\n    E --&gt; G[Results]\n    F --&gt; B"
+  },
+  {
+    "objectID": "slides/slides.html#slide-1-introduction",
+    "href": "slides/slides.html#slide-1-introduction",
+    "title": "Quarto Reveal.js Slide Deck",
+    "section": "Slide 1: Introduction",
+    "text": "Slide 1: Introduction\nWelcome to this Quarto Reveal.js slide deck. Lorem ipsum dolor sit amet.\n\n“A professional quote to start the presentation.”"
+  },
+  {
+    "objectID": "slides/slides.html#slide-2-images-citation",
+    "href": "slides/slides.html#slide-2-images-citation",
+    "title": "Quarto Reveal.js Slide Deck",
+    "section": "Slide 2: Images & Citation",
+    "text": "Slide 2: Images & Citation\nHere are two images included in the presentation:\n\n\nAccording to Miller and Smith (Miller and Smith 2020), deep learning accelerates scientific discovery."
+  },
+  {
+    "objectID": "slides/slides.html#slide-3-python-code-with-plot",
+    "href": "slides/slides.html#slide-3-python-code-with-plot",
+    "title": "Quarto Reveal.js Slide Deck",
+    "section": "Slide 3: Python Code with Plot",
+    "text": "Slide 3: Python Code with Plot\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiller, John, and Alice Smith. 2020. “Deep Learning for Scientific Discovery.” Nature Reviews Physics 2 (10): 711–21."
+  }
+]

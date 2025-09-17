@@ -1,0 +1,97 @@
+---
+title: "Simple Quarto Website"
+format: html
+toc: true   # ensures a table of contents
+bibliography: reference.bib   # make sure this points to your .bib file
+---
+
+# Introduction (H1)
+
+Welcome to my professional Quarto website.  
+This page demonstrates formatting, math, references, and multimedia content for lab documentation.
+
+---
+
+# Research Background (H2)
+
+## Two-Column Layout (H3)
+
+::: columns
+::: column
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet quam sit amet sapien pretium, eu ultricies urna feugiat.
+:::
+
+::: column
+Suspendisse nec urna facilisis, tristique urna non, lacinia enim. Donec feugiat justo sit amet tortor porttitor convallis.
+:::
+:::
+
+---
+
+# Key Features (H2)
+
+## Bulleted List (H3)
+
+- Comprehensive analysis of project requirements  
+- Development of reproducible workflows  
+- Clear documentation and professional reporting  
+- Cite a source from your bibliography: According to Miller and Smith [@miller2020deep], deep learning accelerates discovery.
+
+## Markdown Table
+
+| Feature          | Description                       |
+|------------------|-----------------------------------|
+| Table of Contents| Added with `toc: true`            |
+| Math             | Inline & block equations          |
+| Multimedia       | Images, video, and diagrams       |
+
+---
+
+# Mathematics (H2)
+
+Inline math example: $E = mc^2$.  
+
+Block math example:
+$$
+\int_{0}^{\infty} e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+$$
+
+---
+
+# Notes, Quotes, and Citations (H2)
+
+Here is a statement with a footnote.[^1]
+
+> "Science is the great antidote to the poison of enthusiasm and superstition." – Adam Smith  
+
+According to Miller and Smith [@miller2020deep], deep learning has transformed scientific discovery.
+
+---
+
+# Multimedia (H2)
+
+## Images (H3)
+
+![Image 1](images/image_1.png)  
+![Image 2](images/image_2.png)
+
+## Embedded Video (H3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aqz-KE-bpKQ" title="Professional Video" frameborder="0" allowfullscreen></iframe>
+
+---
+
+# Diagram (H2)
+
+## Mermaid Flowchart Workflow Diagram (H3)
+
+```{mermaid}
+flowchart TD
+    A[Start] --> B[Data Collection]
+    B --> C[Data Cleaning]
+    C --> D{Analysis?}
+    D -->|Yes| E[Modeling]
+    D -->|No| F[Reiterate Steps]
+    E --> G[Results]
+    F --> B
+```

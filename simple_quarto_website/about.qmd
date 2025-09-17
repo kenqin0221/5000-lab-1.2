@@ -1,0 +1,41 @@
+---
+title: Quarto Reveal.js Slide Deck
+format: revealjs
+bibliography: reference.bib
+jupyter: python3
+---
+
+
+---
+title: "Componet 5"
+---
+
+# About This Project (H1)
+
+This section provides information about the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+## Research Background (H2)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
+
+### Methodology (H3)
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque.
+
+```{python}
+# Example: Simple Matplotlib plot
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.figure(figsize=(6,4))
+plt.plot(x, y, label='sin(x)')
+plt.title("Example Plot")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.legend()
+plt.show()
+```
+

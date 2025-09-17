@@ -1,0 +1,45 @@
+---
+title: Quarto Reveal.js Slide Deck
+format: revealjs
+bibliography: reference.bib
+jupyter: python3
+---
+
+
+## Slide 1: Introduction
+
+Welcome to this Quarto Reveal.js slide deck. Lorem ipsum dolor sit amet.
+
+> "A professional quote to start the presentation."
+
+---
+
+## Slide 2: Images & Citation
+
+Here are two images included in the presentation:
+
+![Image 1](images/image_1.png)  
+![Image 2](images/image_2.png)
+
+According to Miller and Smith [@miller2020deep], deep learning accelerates scientific discovery.
+
+---
+
+## Slide 3: Python Code with Plot
+
+```{python}
+#| code-fold: true
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.plot(x, y, label='sin(x)')
+plt.title("Example Plot in Slide")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.legend()
+plt.show()
+```
+
